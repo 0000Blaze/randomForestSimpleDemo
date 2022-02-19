@@ -38,5 +38,6 @@ print('Accuracy: ',metrics.accuracy_score(y_test, y_pred))
 plt.show()
 '''
 
+#observing the input and predictions for test data
 print(X_test)
 print(y_pred)
