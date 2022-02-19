@@ -38,6 +38,13 @@ print('Accuracy: ',metrics.accuracy_score(y_test, y_pred))
 plt.show()
 '''
 
+'''
 #observing the input and predictions for test data
+#accuracy was seen to be right 8/10 time ,so accuracy = 80%
 print(X_test)
 print(y_pred)
+'''
+
+#test the model with input data 
+prediction = clf.predict([[730,3.7,4,27]]) 
+print ('Predicted Result: ', prediction)
